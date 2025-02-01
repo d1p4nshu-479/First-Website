@@ -1,0 +1,142 @@
+/*This is my CSS file */
+
+#container{
+	width: 1000px;
+	border: 0px solid black;
+	color: white;
+	margin: 10px auto 10px auto;
+	height: 900px;
+	color: white;	
+	font-size: 18;
+}
+
+img[src="dfclogo.jpg"],[src="dfcshop.jpg"]{
+	border: 3px solid white;
+}
+
+
+h1{
+	color: white;
+	font-family: Arial;
+	font-size: 230%;
+	background-color: red;
+	border: 3px solid white;
+	text-align: center;
+	text-decoration-line: underline;	
+}
+
+body{
+	background-color: #101962;
+}
+
+a.menu{
+	color: white;
+	font-size: 180%;
+	font-family: Comic Sans MS;
+	padding: 8px 8px 8px;
+	width: 200px;
+	border: 2px solid white;
+	background-color: red;
+	margin-right: 20px;
+	font-weight: bold;
+}
+
+h2,h3,h4,h5{
+	color: white;
+	text-align: center;
+	font-size: 200%;
+	font-family: Calibri;
+	text-decoration-line: underline;
+	background-color: red;
+	border: 3px solid white;	
+}
+
+a:hover{
+	color: #101962;}
+
+p.footer{
+	color: white;
+	background-color: red;
+	border: 2px solid white;
+	font-weight: bold;
+}
+
+p.text2{
+	text-align: center;
+	font-size: 110%;
+	margin-left: auto;
+	margin-right: auto;
+	right: 20px;
+	width: 70%;
+	border: 2px solid white;
+	padding: 5px;
+	font-weight: bold;
+}
+
+p.text{
+	position: right;
+	text-align: center;
+	font-size: 130%;
+	right: 0px;
+	float: right;
+	width: 40%;
+	border: 3px solid #d6e7f6;
+	padding: 10px;
+	font-weight: bold;
+}
+
+p.text3{
+	color: white;
+	text-align: left;
+	font-size: 100%;
+	font-family: Calibri;
+}
+
+p.text4{
+	color: white;
+	border:2px solid white;
+	text-align: center;
+	font-size: 95%;
+	font-weight: bold;
+}
+
+#gmap {
+	position: relative;
+	top: -320px;
+	float: right;
+	border: 3px solid red;
+}
+
+p.text5{
+	color: white;
+	text-align: center;
+	font-size: 100%;
+	border: 2px solid white;
+	border-width: 3px 5px;
+	font-weight: bold;
+}
+
+img[src="dfcmenu.png"] {
+	border: 3px solid red;
+}
+
+p.text6 {
+	color: white;
+	border: 2px solid white;
+	font-size: 90%;
+	width: 30%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+}
+
+input[type=text] {
+	position: relative;
+	left: 20px;
+	border: 2px solid red;
+}
+
+textarea[name=query] {
+	border: 2px solid red;
+}

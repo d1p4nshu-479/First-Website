@@ -1,0 +1,103 @@
+<html>
+<head>
+<title> DFC CHICKEN GRILL LEICESTER</title>
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<div id="container">
+<table border="0" width="105%">
+<td><h1>DFC CHICKEN GRILL LEICESTER</h1></td>
+<td><img src="dfclogo.jpg" width="70"/></td>
+</table>
+<hr>
+<div align="center">
+<a class="Menu" href="Home.html"> Home</a>
+<a class="Menu" href="menu.html"> Menu</a>
+<a class="Menu" href="toppicks.html"> Top Pick's</a>
+<a class="Menu" href="contactus.html"> Contact Us</a>
+<hr/>
+
+<tr>
+<section id="gallery">
+    <div class="section-inner">
+        <h4> Top Pick's Page</h4>
+        <p class="text5"> These are the top selling item's from DFC which have been produced from customer reviews.</p>
+        
+        <div class="slideshow-container">
+
+ 
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="dfcmeals.jpg" style="width:24%">
+              <div class="text6"> TOP DFC MEALS </div>
+            </div>
+
+ 
+
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="dfcoffer.jpg" style="width:23%">
+              <div class="text6">TOP DFC OFFERS</div>
+            </div>
+
+ 
+
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="dfccurries.jpg" style="width:24%">
+              <div class="text6">TOP CURRIES</div>
+            </div>
+
+ 
+
+		 <br>
+
+ 
+
+            <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            </div>
+			</div>
+			
+</div>
+
+ 
+
+            <script>
+            var slideIndex = 0;
+            showSlides();
+
+ 
+
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 3000); // Change image every 3 seconds
+            }
+            </script>
+    </div>
+    </section>
+</br>
+</tr>
+</div>
+
+
+<div align ="center">
+<p class="footer"color="white"> DFC CHICKEN GRILL LEICESTER </p>
+</div>
+
+</html>
